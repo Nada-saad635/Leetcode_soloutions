@@ -15,12 +15,12 @@ def fibonacci_sequence(n):
     
     # Generate the rest of the sequence
     for i in range(2, n):
-        next_fib = fib_sequence[i - 1] + fib_sequence[i - 2]
+        next_fib= fib_sequence[i - 1] + fib_sequence[i - 2]
         fib_sequence.append(next_fib)
     
     return fib_sequence
 
 # Example: Generate the first 11 Fibonacci numbers
-n = 11
+n = 1
 sequence = fibonacci_sequence(n)
 print(sequence)
